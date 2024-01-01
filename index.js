@@ -20,7 +20,7 @@ const userData = [];
 //const urise = "mongodb+srv://amwaura89:password@cluster0.uim76jv.mongodb.net/?retryWrites=true&w=majority";
 const uri =
   process.env.MANGO_URI ||
-  "mongodb+srv://Aloktam1234:3gEW0yLODDsWAoV1@cluster0.lhpfmkl.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://avinash03082003:Js2pNrznztrl0Kvy@projectfrt.ppn0dmb.mongodb.net/ProjectFRT?retryWrites=true&w=majority";
 
 mongoose.set("strictQuery", false);
 async function connect() {
