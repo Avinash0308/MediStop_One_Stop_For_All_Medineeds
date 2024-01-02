@@ -1,6 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tumin - The Two Minute App</title>
+    <!-- <link rel="shortcut icon" href="./assets/creop.png" type="image/x-icon"> -->
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
     <script
       crossorigin="anonymous"
       src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"
@@ -8,7 +40,7 @@
     <style>
       html,
       body {
-         height: 100%;
+        height: 100%;
       }
 
       body {
@@ -16,26 +48,169 @@
       }
 
       #webchat {
-        height: 100%;
+        align-items: center;
+        height: 80%;
         width: 100%;
       }
     </style>
+    <link rel="shortcut icon" href="fevicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./home.css" />
   </head>
+
   <body>
-    
+    <!-- navigation -->
+    <nav>
+      <a href="#home"><img src="creop.png" alt="logo.png" /></a>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#" onclick="lw()">Home</a></li>
+          <li><a href="#" onclick="lw()">Schemes</a></li>
+          <li><a href="#" onclick="lw()">Personal Data</a></li>
+          <li><a href="#" onclick="lw()">Appointment</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- side navigation -->
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="#" onclick="lw()">Home</a></li>
+          <li><a href="#" onclick="lw()">Schemes</a></li>
+          <li><a href="#" onclick="lw()">Personal Data</a></li>
+          <li><a href="#" onclick="lw()">Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="nav-bar">
+      <i class="fa-solid fa-bars" id="menu-bar"></i>
+    </div>
     <div id="webchat" role="main"></div>
-    <script>
-      window.WebChat.renderWebChat(
-        {
-          directLine: window.WebChat.createDirectLine({
-            token: '5vQ3UVbm1Eg.pIPeIoJf5wi4-Bopj81wdQGTxOv-5kRH9VxA8rBMtNc'
-          }),
-          userID: 'YOUR_USER_ID',
-          username: 'Web Chat User',
-          locale: 'en-US'
-        },
-        document.getElementById('webchat')
-      );
-    </script>
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>
+              </h6>
+              <p>
+                Thanks for using Tumin. Hope we help you to solve your problem
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Services</h6>
+              <p>
+                <a href="#about" class="text-reset">About</a>
+              </p>
+              <p>
+                <a href="/#" class="text-reset">Edit Data</a>
+              </p>
+              <p>
+                <a href="/#" class="text-reset">Scheme</a>
+              </p>
+              <p>
+                <a href="#" class="text-reset">Your Data</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#hospital" class="text-reset">Connected Hospital</a>
+              </p>
+              <p>
+                <a href="#about" class="text-reset">About</a>
+              </p>
+              <p>
+                <a href="#service" class="text-reset">Service</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i class="fas fa-home me-3 text-secondary"></i> Satna Dist.Satna
+                (M.P)
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                tumin@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-3 text-secondary"></i> +919644905810
+              </p>
+              <p>
+                <i class="fas fa-print me-3 text-secondary"></i> +9196644905810
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="flex-row p-4" style="background-color: rgba(0, 0, 0, 0.025)">
+        <img src="creop.png" alt="" class="col-md-4 col-lg-3" />
+        <span class="col-md-4 col-lg-7">© 2024 Copyright:</span>
+        <a class="text-reset fw-bold" href="#">Tumin.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="chatbot.js"></script>
+
   </body>
 </html>
