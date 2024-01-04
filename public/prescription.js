@@ -1,7 +1,4 @@
-const username="pradeep singh";
-
-
-
+const username="Avinash Agrawal";
 
 const array = [
   {
@@ -29,7 +26,7 @@ const array = [
     "images":["milk.jpg","sprouts.jpg","bread.jpg"],
   },
   {
-    "name": "pradeep singh",
+    "name": "Avinash Agrawal",
     "age":["20","Male"],
     "Address":"Mangawan Basti Dist.Rewa",
     "Mobile":"9644905810",

@@ -5,41 +5,62 @@
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="prescription.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<style>
-
-</style>
 </head>
 <body>
-
-  <%- include('header') %>
-
-<section class="section about-section gray-bg" id="about">
-  <div class="container">
-    <div class="row align-items-center flex-row-reverse">
-      <div class="col-lg-6">
-        <div class="about-text go-to">
-          <h3 class="dark-color" id ="name">${name}</h3>
-          <h6 class="theme-color lead" id="age">Age : ${age}   <span id="gender">${age}</span></h6>
-        
-          <div class="row about-list">
-            <div class="col-md-6">
+  
+  <nav>
+    <a href="#home"><img src="creop.png" alt="logo.png" /></a>
+    <div class="nav-menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/schemes">Schemes</a></li>
+        <li><a href="/prescription">Personal Data</a></li>
+        <li><a href="/appointment">Appointment</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- side navigation -->
+  <div id="sideNav">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/schemes">Schemes</a></li>
+        <li><a href="/prescription">Personal Data</a></li>
+        <li><a href="/appointment">Appointment</a></li>
+        <li><a href="/logout">Logout</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="nav-bar">
+    <i class="fa-solid fa-bars" id="menu-bar"></i>
+  </div>
+  <section class="section about-section gray-bg" id="about">
+    <div class="container">
+      <div class="row align-items-center flex-row-reverse">
+        <div class="col-lg-6">
+          <div class="about-text go-to">
+            <h3 class="dark-color" id ="name">${name}</h3>
+            <h6 class="theme-color lead" id="age">Age : ${age}   <span id="gender">${age}</span></h6>
+            
+            <div class="row about-list">
+              <div class="col-md-6">
+                <div class="media">
+                  <label>Sugar</label>
+                  <p id="sugar">100</p>
+                </div>
+                <div class="media">
+                  <label>BP</label>
+                  <p id="BP">120/85</p>
+                </div>
+                <div class="media">
+                  <label >Oxygen</label>
+                  <p id="oxygen-level">95</p>
+                </div>
               <div class="media">
-                <label>Sugar : </label>
-                <p id="sugar">100</p>
-              </div>
-              <div class="media">
-                <label>BP</label>
-                <p id="BP">100/85</p>
-              </div>
-              <div class="media">
-                <label >Oxygen level</label>
-                <p id="oxygen-level">95</p>
-              </div>
-              <div class="media">
-                <label>Blood Group</label>
-                <p id="Blood-group">A</p>
+                <label>Blood</label>
+                <p id="Blood-group">B+</p>
               </div>
             </div>
             <div class="col-md-6">
@@ -52,8 +73,8 @@
                 <p id="weight">75kg</p>
               </div>
               <div class="media">
-                <label>Eye power :</label>
-                -0.2
+                <label>Power</label>
+                <p id = "power">0.2</p>
               </div>
               <div class="media">
                 <label>Fitness</label>
@@ -65,14 +86,14 @@
       </div>
       <div class="col">
         <div class="about-avatar">
-          <img src="avtar.png" title="" alt="" id="image">
+          <img src="avatar5.gif" title="" alt="" id="image">
         </div>
       </div>
     </div>
     <div class="counter">
     <div class="main">
       <h1>Prescribed medicine </h1>
-    
+      
       <div class="fakeimg" style="height:220px;">
         <div class="table-responsive-sm">
           <table class="table">
@@ -139,19 +160,144 @@
       </tbody>
     </table>
   </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
+  
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section
+  class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+    <span>Get connected with us on social networks:</span>
+  </div>
+  <!-- Left -->
+  
+  <!-- Right -->
+  <div>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="" class="me-4 link-secondary">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
 
-  <!--prescribed medicine -->
+<!-- Section: Links  -->
+<section class="">
+  <div class="container text-center text-md-start mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase fw-bold mb-4">
+          <i class="fas fa-gem me-3 text-secondary"></i>
+        </h6>
+        <p>
+          Thanks for using Tumin. Hope we help you to solve your problem
+        </p>
+      </div>
+      <!-- Grid column -->
+      
+      <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Services</h6>
+          <p>
+            <a href="#about" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="/#" class="text-reset">Edit Data</a>
+          </p>
+          <p>
+            <a href="/#" class="text-reset">Scheme</a>
+          </p>
+          <p>
+            <a href="#" class="text-reset">Your Data</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+          <p>
+            <a href="#hospital" class="text-reset">Connected Hospital</a>
+          </p>
+          <p>
+            <a href="#about" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#service" class="text-reset">Service</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p>
+            <i class="fas fa-home me-3 text-secondary"></i> Satna Dist.Satna
+            (M.P)
+          </p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            tumin@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone me-3 text-secondary"></i> +919644905810
+          </p>
+          <p>
+            <i class="fas fa-print me-3 text-secondary"></i> +9196644905810
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  
+  <!-- Copyright -->
+  <div class="flex-row p-4" style="background-color: rgba(0, 0, 0, 0.025)">
+    <img src="creop.png" alt="" class="col-md-4 col-lg-3" />
+    <span class="col-md-4 col-lg-7">© 2024 Copyright:</span>
+    <a class="text-reset fw-bold" href="#">Tumin.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--prescribed medicine -->
 
-  <script src="prescription.js"></script>
+<script src="prescription.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./prescription.css" />
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
