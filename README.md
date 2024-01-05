@@ -21,6 +21,8 @@ You can check your diabetes or can take health survey using the bot.
 
 - **Personal Data :** Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. It will help you to find the documents whenever required without taking headache of missing them.
 
+<br>
+
 ## Tech Stack
 Tumin is smooth, sharp looking, and multi-fuctioning modern day website built to operate with ease. Tumin can work on multiple devices as well i.e. you can operate it with any device you have and that even without any bug and glitch.
 Followinng technologies are used to built Tumin: 
