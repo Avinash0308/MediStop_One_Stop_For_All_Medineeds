@@ -1,23 +1,24 @@
-# Medistop (One stop for all medineeds) 
-Medistop  is a website which is developed as part of **Future Ready Talent Internship**. 
- MediStop – One Stop For All MediNeeds is a healthcare tool  for ease of patients and to enhance the their way of living. 
+# Tumin - The Two Minute App
+Tumin is a healthcare web app developed as a part of **Future Ready Talent Internship**. 
+Tumin can be used as a med-tech tool that can ease your life with its various and crazy functionalities.\
 
-**Project Link:** https://medistoprender.onrender.com/home
+**Project Link:** 
 
-**Project Demo Link:** https://www.youtube.com/watch?v=3rT0mKtlDeQ
-
-
+**Project Demo Link:** 
 
 
 ## Key Features
 
-- **Appointment System :** MediStop provide Appointment System using which patients can book the appointment with doctors with there own preferred time slot and day. Gone the time when we need to sit in long queues for our number to come, now you have MediStop to do it all.
+- **Avinashak - The Healthcare Bot :** Tumin is packed with modern era chatbot developed using Azure Health Bot that can process your needs, navigate you through are website and most importantly can give you health related suggestions.
+You can check your diabetes or can take health survey using the bot.
 
-- **List of schemes :** MediStop lists all the schemes, programs, NGO’s motives, and many more at one place to help economically unhealthy users to get the treatment for free or in as low cost as possible.
+- **Medical Resources :** Tumin provides you with data about Healthcare centers, Hospitals and Doctors in your locality so you need to ask others at crucial time. Thus helps you finding right just in minutes.
 
-- ** Your Data :** Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. 
+- **Appointment System :** Tumin comes with Appointment System using which users can book the appointments with doctors and that even with their own preferred day and time slot. Gone the time when we need to sit in long queues for our number to come, now you have Tumin to do it all.
 
-- **Health Bot for Analysis of Dibetes:**  Using this boat patient can analyze their diabetic conditions whether on the basis of his/her bmi data . It is health bot for ease the life of patients. 
+- **Schemes :** Tumin lists all the schemes, programs, NGO’s motives, and many more at one place to help economically weaker peopls to get the treatment for free or in as low cost as possible. This will help many to get the most optimum medical requirements and that even in lowest possible prices.
+
+- **Personal Data :** Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. It will help you to find the documents whenever required without taking headache of missing them.
 
 ## Technologies Used
 - HTML
