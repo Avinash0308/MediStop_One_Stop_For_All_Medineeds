@@ -86,7 +86,7 @@ Azure Static Web Apps is a service provided by Microsoft Azure that simplifies t
 
 ### Azure Blob Storage 🗄️
 
-![Azure Blob Storage](https://cloudgenics.in/wp-content/uploads/2023/03/Azure-Blob-Storage.png)
+![Azure Blob Storage](https://www.drupal.org/files/project-images/azure-blob-icon.png)
 
 Azure Blob Storage is a cloud-based object storage service provided by Microsoft Azure. It is designed to store and manage unstructured data, such as documents, images, videos, and other binary or text data.
 
