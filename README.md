@@ -53,30 +53,40 @@ Followinng technologies are used to built Tumin:
 
 ## Breakdowns of Azure Technologies 📊:
 
-## Azure Bot Service 🤖
+## Azure Health Bot Service 🤖
 
 ![Azure Health Bot Service](https://learn.microsoft.com/training/achievements/azure-health-bot-social.png)
 
+Azure Health Bot is graphical interface to build chatbots that even without writing a single line of code. Following are the key features of Tumin Healthbot - Avinashak.
+
 - Avinashak a part of Tumin is totally built using Azure Health Bot Service.
+
 - Avinashak comes with three functionalities:
--- d
-- It is based on your bmi so this information may be true. 
-- 
-- It does not give accurate data.
-- The chatbot is deployed using Azure App Service.
+    - **Body Mass Index (BMI) Calculator:** As it's name tells, this one is used to calculate you BMI and output the results.
 
- 
-## Azure App Service 📱:
+    - **Diabetes Risk Predicto:** Avinashak comes with inbuilt diabetes risk predictor. It basically tells you about your chance of becoming a diabetes patients in next few upcoming years based on few question it may ask.
 
-![Azure App Service](./readme_images/azure-service.png)
+    - **Health Survey :** You can take your small health survey based on 36 health related questions. It can help you know moore about yourself and take required changes to lead a healthy life.
 
-- I have used Azure App Service to deploy the chatbot.
-- The chatbot is deployed as a web app, allowing it to be integrated into the medistop website.
-- There are various app service plans like `Free`, `Standard` and `Premium` etc. I am using the free one to deploy my chatbot.
+- Avinashak is deployed using Azure Services so that it can be accessed 24 X 7.
+
+## Azure Static Web Apps Service 📱
+
+![Azure App Service](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffaun.pub%2Fhosting-a-static-react-application-using-the-new-azure-static-web-app-1e83c60c0d29&psig=AOvVaw0tEV1Cg6I0QI4mgAgD3y97&ust=1704523460616000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCJ4O_SxYMDFQAAAAAdAAAAABAN)
+
+Azure Static Web Apps is a service provided by Microsoft Azure that simplifies the process of building and deploying static web applications. Here are key points to understand about Azure Static Web Apps:
+
+- **Static Web Hosting:** Azure Static Web Apps is designed for hosting static web applications, supporting HTML, CSS, and JavaScript files, without server-side processing.
+
+- **Integrated CI/CD:** It seamlessly integrates with GitHub, enabling automatic CI/CD pipelines, ensuring quick and automated deployment whenever changes are pushed to the connected repository.
+
+- **Serverless APIs:** You can incorporate serverless APIs using Azure Functions, allowing you to add dynamic functionality to your static web application without a dedicated backend server.
+
+- **Global CDN:** Azure Static Web Apps utilizes Azure CDN for global content delivery, ensuring fast and reliable access to your content by distributing it across multiple endpoints worldwide.
 
 ## Azure Blob Storage 🗄️
 
-![Azure Blob Storage](./readme_images/azure-blob-storage.png)
+![Azure Blob Storage](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thetechplatform.com%2Fpost%2Fazure-blob-storage-2&psig=AOvVaw3ecUlpiIwuinNR3NCTqbC5&ust=1704523852185000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCICc8ajUxYMDFQAAAAAdAAAAABAI)
 
 - Azure Blob Storage is used to store the knowledge base for the chatbot.
 - I have created many containers to store the website images, chatbot images and the knowledge base files.
