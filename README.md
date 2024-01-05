@@ -100,7 +100,7 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 
 <br>
 
-## Screen Shots of the Website:
+## Snapshots of Tumin - The Two Minute App:
 
 ### Home Page
 ![image](./readme_images/HomePage.png)
@@ -125,11 +125,12 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 ### Index page 
 ![image](./readme_images/index-page.png)
 
+<br>
 
+## Acknowledgement
 
+I (Avinash Agrawal) would like to express my sincere gratitude to Future Ready Talent, GitHub, and Microsoft Azure Team for providing me with the golden opportunity to work on this project that healped me gain immense knowledge about Azure Services. It also helped me learning some new work fronts. I'll always be grateful to FRT Team for their help and support.
 
-## Acknowledgements
-I would like to express my sincere gratitude to Future Ready Talent, GitHub, and Microsoft Azure for providing me with the opportunity to work on this project.
+<br>
 
-##
-Thank you for your interest in Medistop .
+#Thanks💖
