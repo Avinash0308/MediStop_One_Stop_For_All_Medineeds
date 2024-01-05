@@ -72,7 +72,7 @@ Azure Health Bot is graphical interface to build chatbots that even without writ
 
 ## Azure Static Web Apps Service 📱
 
-![Azure App Service](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffaun.pub%2Fhosting-a-static-react-application-using-the-new-azure-static-web-app-1e83c60c0d29&psig=AOvVaw0tEV1Cg6I0QI4mgAgD3y97&ust=1704523460616000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCJ4O_SxYMDFQAAAAAdAAAAABAN)
+![Azure App Service](https://techcommunity.microsoft.com/t5/image/serverpage/image-id/381010i2FC2D973E0C5D17C/image-size/large?v=v2&px=999)
 
 Azure Static Web Apps is a service provided by Microsoft Azure that simplifies the process of building and deploying static web applications. Here are key points to understand about Azure Static Web Apps:
 
@@ -86,7 +86,7 @@ Azure Static Web Apps is a service provided by Microsoft Azure that simplifies t
 
 ## Azure Blob Storage 🗄️
 
-![Azure Blob Storage](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thetechplatform.com%2Fpost%2Fazure-blob-storage-2&psig=AOvVaw3ecUlpiIwuinNR3NCTqbC5&ust=1704523852185000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCICc8ajUxYMDFQAAAAAdAAAAABAI)
+![Azure Blob Storage](https://cloudgenics.in/wp-content/uploads/2023/03/Azure-Blob-Storage.png)
 
 - Azure Blob Storage is used to store the knowledge base for the chatbot.
 - I have created many containers to store the website images, chatbot images and the knowledge base files.
