@@ -6,7 +6,7 @@ Tumin can be used as a med-tech tool that can ease your life with its various an
 
 **Project Demo Link:** 
 
-<br><br>
+<br>
 ## Key Features
 
 - **Avinashak - The Healthcare Bot :** Tumin is packed with modern era chatbot developed using Azure Health Bot that can process your needs, navigate you through are website and most importantly can give you health related suggestions.
@@ -20,14 +20,23 @@ You can check your diabetes or can take health survey using the bot.
 
 - **Personal Data :** Patients can store all there past history like medical certificates, report, medicinal information and many more in our website without any worry of losing anything. It will help you to find the documents whenever required without taking headache of missing them.
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- Node Js
-- Express Js
-- Mongo Db 
+## Tech Stack
+Tumin is smooth, sharp looking, and multi-fuctioning modern day website built to operate with ease. Tumin can work on multiple devices as well i.e. you can operate it with any device you have and that even without any bug and glitch.
+Followinng technologies are used to built Tumin: 
+
+- **Mongo Db :** Mongo DB is Database used to maintain user information and data realted to them. At Tumin, we used Mongo DB to store medical data and user information.
+
+- **Express Js :** Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. This modern day framework is used to provide seamlessness to the webapp.
+
+- **Node Js :** Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. We used it to create our server-side web application Tumin. It is used to provide the backend to the webapp.
+
+- **Bootstrap :** Bootstrap is a free, open-source framework for creating websites and web applications. It's a collection of reusable code written in HTML, CSS, and JavaScript. Tumin uses Bootstrap to make website responsive and device friendly.
+
+- **HTML :** HTML stands for Hypertext Markup Language. It's a markup language that's used to create web pages. HTML is the basic scripting language that web browsers use to render pages on the internet. 
+
+- **CSS :** Cascading Style Sheets (CSS) is a coding language that describes how elements in a document should appear on screen, paper, or other media. It's a fundamental technology of the World Wide Web, along with HTML and JavaScript.
+
+- **JavaScript :** JavaScript is a high-level, interpreted programming language. It is one of the three core technologies of the World Wide Web, along with HTML and CSS. JavaScript is used to make web pages interactive and to add dynamic content to web pages.
 
 ## Azure Technologies Used
 - Azure Static Web Apps
