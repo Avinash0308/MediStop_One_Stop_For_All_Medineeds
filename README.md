@@ -55,10 +55,11 @@ Followinng technologies are used to built Tumin:
 
 ## Azure Bot Service 🤖
 
-![Azure Health Bot Service](./readme_images/azure-health-bot.png)
+![Azure Health Bot Service](https://learn.microsoft.com/training/achievements/azure-health-bot-social.png)
 
-- I have used Azure Bot Service to create the chatbot.
-- The chatbot is mainly used to find your diabetic condition according to your Bmi , allowing patient to get quick response.
+- Avinashak a part of Tumin is totally built using Azure Health Bot Service.
+- Avinashak comes with three functionalities:
+-- d
 - It is based on your bmi so this information may be true. 
 - 
 - It does not give accurate data.
