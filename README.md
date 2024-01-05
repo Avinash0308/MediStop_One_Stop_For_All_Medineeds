@@ -107,10 +107,12 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 
 ### About Page
 ![image]()
+<br>
 ![image]()
 
 ### Schemes Page
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(156).png)
+<br>
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(157).png)
 
 ### Appointment Page
@@ -127,7 +129,7 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(161).png)
 
 ### Index page 
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot (160).png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot(160).png)
 
 <br>
 
