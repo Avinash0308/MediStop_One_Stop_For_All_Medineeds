@@ -53,9 +53,7 @@ Followinng technologies are used to built Tumin:
 
 ## Breakdowns of Azure Technologies 📊:
 
-<br>
-
-## Azure Bot Service 🤖
+- **## Azure Bot Service 🤖**
 
 ![Azure Health Bot Service](./readme_images/azure-health-bot.png)
 
