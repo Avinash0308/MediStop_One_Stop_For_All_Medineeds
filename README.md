@@ -103,27 +103,31 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 ## Snapshots of Tumin - The Two Minute App:
 
 ### Home Page
-![image](./readme_images/HomePage.png)
+![image]()
 
 ### About Page
-![image](./readme_images/about-page.png)
-![image](./readme_images/about-page2.png)
+![image]()
+![image]()
 
 ### Schemes Page
-![image](./readme_images/schemes.png)
+![image](https://ibb.co/xgRKpbX)
+![image](https://ibb.co/2k8v8tp)
 
 ### Appointment Page
-![image](./readme_images/appointment.png)
+![image](https://ibb.co/Vmy5XWz)
 
-### Your Data Page
-![image](./readme_images/yourdata.png)
+### Personal Data
+![image](https://ibb.co/FVBpT1x)
 
 ### Testimonial Page
-![image]![Alt text](./readme_images/Testomonial.png)
+![image]![Alt text]
 
+### Avinashak - Chat Bot
+
+![image](https://ibb.co/hHFtYZF)
 
 ### Index page 
-![image](./readme_images/index-page.png)
+![image](https://ibb.co/TRV14Vb)
 
 <br>
 
@@ -134,3 +138,11 @@ I (Avinash Agrawal) would like to express my sincere gratitude to Future Ready T
 <br>
 
 # Thanks💖
+<!--https://ibb.co/hHFtYZF
+https://ibb.co/TRV14Vb
+https://ibb.co/Vmy5XWz
+https://ibb.co/FVBpT1x
+https://ibb.co/2k8v8tp
+https://ibb.co/xgRKpbX
+https://ibb.co/x6F81Dd
+https://ibb.co/XCxQpmy->
