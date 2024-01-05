@@ -1,12 +1,12 @@
 # Tumin - The Two Minute App
 Tumin is a healthcare web app developed as a part of **Future Ready Talent Internship**. 
-Tumin can be used as a med-tech tool that can ease your life with its various and crazy functionalities.\
+Tumin can be used as a med-tech tool that can ease your life with its various and crazy functionalities.
 
 **Project Link:** 
 
 **Project Demo Link:** 
 
-
+<br><br>
 ## Key Features
 
 - **Avinashak - The Healthcare Bot :** Tumin is packed with modern era chatbot developed using Azure Health Bot that can process your needs, navigate you through are website and most importantly can give you health related suggestions.
