@@ -41,14 +41,19 @@ Followinng technologies are used to built Tumin:
 
 - **JavaScript :** JavaScript is a high-level, interpreted programming language. It is one of the three core technologies of the World Wide Web, along with HTML and CSS. JavaScript is used to make web pages interactive and to add dynamic content to web pages.
 
+<br>
+
 ## Azure Technologies Used
-- Azure Static Web Apps
-- Azure Bot Service
-- Azure Health Bot Service
-- Azure Storage
+- **Azure Static Web Apps**
+- **Azure Bot Service**
+- **Azure Health Bot Service**
+- **Azure Storage**
 
-# Breakdowns of Azure Technologies 📊:
+<br>
 
+## Breakdowns of Azure Technologies 📊:
+
+<br>
 
 ## Azure Bot Service 🤖
 
