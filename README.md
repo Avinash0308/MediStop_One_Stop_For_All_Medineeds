@@ -103,16 +103,16 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 ## Snapshots of Tumin - The Two Minute App:
 
 ### Home Page
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015321.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015321.png)
 
 ### Statics Page
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015440.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015440.png)
 
 ### Our Services
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015515.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015515.png)
 
 ### Connected Hospitals
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015606.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015606.png)
 
 ### Schemes Page
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(156).png)
@@ -122,22 +122,22 @@ Azure Blob Storage is a cloud-based object storage service provided by Microsoft
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(157).png)
 
 ### Appointment Page
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015825.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015825.png)
 
 ### Personal Data
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015720.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015720.png)
 
 ### Testimonial Page
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015644.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015644.png)
 
 ### Avinashak - Chat Bot
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(161).png)
 
 ### Registration Form
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015916.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015916.png)
 
 ### Footer 
-![image](https://dataforpublic.blob.core.windows.net/images/Screenshot 2024-01-07 015745.png)
+![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%202024-01-07%20015745.png)
 
 ### Index page 
 ![image](https://dataforpublic.blob.core.windows.net/images/Screenshot%20(160).png)
