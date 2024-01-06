@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins: wght@200; 300; 400; 500; 600;700&display=swap");
 
 * {
-  background-image: url("pres5.gif");
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: url("razer4.png");
+  background-repeat: repeat-y;
+  background-size: 100% 60%;
 }
 nav {
   display: flex;
@@ -132,7 +136,9 @@ ul li a:hover {
   }
 }
 .container {
-  background-image: url("pres3.gif");
+  background-image: url("razer3.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 50%;
   max-width: 700px;
   margin: auto;
   display: flex;
@@ -152,10 +158,10 @@ ul li a:hover {
 
 .container .title {
   font-size: 25px;
-
+  margin-left: 200px;
   font-weight: 500;
-
   position: relative;
+  color: rgb(27, 236, 225);
 }
 
 .container .title::before {
@@ -176,6 +182,10 @@ ul li a:hover {
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
+.container #all-appointments{
+  color: white;
+}
+
 .content form .user-details {
   display: flex;
 
@@ -193,8 +203,8 @@ form .user-details .input-box {
 
 form .input-box span.details {
   display: block;
-
-  font-weight: 500;
+  color: rgb(235, 216, 13);
+  font-weight: bolder;
 
   margin-bottom: 5px;
 }
@@ -224,11 +234,15 @@ form .input-box span.details {
   border-color: #9b59b6;
 }
 
-form gender-details .gender-title {
-  font-size: 20px;
-
-  font-weight: 500;
+form .gender-details{
+  margin-top: 27px;
 }
+
+form .gender-details .gender-title {
+  font-size: 16px;
+  color:rgb(235, 216, 13);
+  font-weight: bolder;
+} 
 
 form .category {
   display: flex;
@@ -257,6 +271,12 @@ form .category label .dot {
   border: 5px solid transparent;
 
   transition: all 0.3s ease;
+}
+
+form .category label .gender{
+  font-weight: bolder;
+  margin-left: 5px;
+  color: white;
 }
 
 form input[type="radio"] {
@@ -291,13 +311,14 @@ form .button button {
 
   transition: all 0.3s ease;
 
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-image: url("razer.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-form button input:hover {
-  /* transform: scale (0.99); */
-
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+form .button button:hover {
+  transition: 1s;
+  background-image: url("razer4.png");
 }
 
 @media (max-width: 584px) {

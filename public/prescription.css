@@ -129,7 +129,9 @@ ul li a:hover {
   }
 }
 body {
-  color: #6f8ba4;
+  background-image: url("razer3.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 50%;
 }
 
 .section {
@@ -137,10 +139,6 @@ body {
   position: relative;
 }
 
-.gray-bg {
-  background-image: url("pres7.gif");
-  background-repeat: repeat;
-}
 
 img {
   max-width: 100%;
@@ -157,6 +155,7 @@ img {
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 6px;
+  color: rgb(221, 187, 17);
 }
 
 @media (max-width: 767px) {
@@ -167,7 +166,7 @@ img {
 
 .about-text h6 {
   font-size: 20px;
-  color: black;
+  color: rgb(36, 240, 176);
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -181,7 +180,8 @@ img {
 .about-text p {
   font-size: 18px;
   max-width: 450px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
 }
 
 .about-text p mark {
@@ -189,7 +189,7 @@ img {
   color: #b2b5f0;
 }
 .main h1{
-  color: black;
+  color: rgb(221, 187, 17);
   text-align: center;
 }
 
@@ -204,12 +204,17 @@ img {
   color: black;
   text-align: center;
 }
+.table-success2{
+  color: rgb(36, 240, 176);
+  text-align: center;
+  font-weight: bolder;
+}
 .about-list .media {
   padding: 5px 0;
 }
 
 .about-list label {
-  color: #20247b;
+  color: white;
   font-weight: 600;
   width: 88px;
   margin: 0;
@@ -222,16 +227,15 @@ img {
   top: 0;
   bottom: 0;
   right: 11px;
-  width: 1px;
+  width: 2px;
   height: 12px;
-  background: #20247b;
+  background: white;
   -moz-transform: rotate(15deg);
   -o-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
   -webkit-transform: rotate(15deg);
   transform: rotate(15deg);
   margin: auto;
-  opacity: 0.5;
 }
 
 .about-list p {
@@ -247,7 +251,9 @@ img {
 
 .about-section .counter {
   padding: 22px 20px;
-  background: #ffffff;
+  background-image: url("razer9.jpg");
+  background-repeat: repeat-y;
+  background-size: 100% 50%;
   border-radius: 10px;
   box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
 }
