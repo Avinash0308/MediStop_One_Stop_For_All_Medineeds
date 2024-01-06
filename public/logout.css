@@ -133,17 +133,18 @@ ul li a:hover {
     display: block;
   }
 }
-*{
-  margin: 0; padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
   outline: none;
   border: none;
   text-transform: capitalize;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   text-decoration: none;
-  }
+}
 :root {
   --black: #444;
   --light-color: #777;
@@ -171,7 +172,7 @@ header {
 .menubtn {
   margin-right: 60px;
 }
-.mainheader button {
+.mainheader .menubtn button {
   padding: 10px 45px;
   text-align: center;
   font-size: 14px;
@@ -179,6 +180,12 @@ header {
   border: none;
   background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
   border-radius: 10px;
+}
+
+.left-section button a:hover {
+  transition: 2s;
+  color: antiquewhite;
+  background-color: #0070fa;
 }
 
 main {
@@ -204,7 +211,12 @@ main .left-sec {
   font-weight: bold;
   color: rgb(255, 255, 255);
 }
-
+.about{
+  
+  background-image: url("razer7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .left-sec button {
   padding: 15px 45px;
   text-align: center;
@@ -228,8 +240,8 @@ main .left-section {
   font-size: 20px;
   text-transform: capitalize;
   font-weight: lighter;
-  color: #242424;
-  margin-top: -100px;
+  color: #000000;
+  margin-top: -70px;
 }
 .left-section {
   height: 100%;
@@ -322,7 +334,7 @@ main .left-section {
   padding: 2.5rem;
 }
 .services .box-container .box i {
-  color: rgb(250,246,0);
+  color: rgb(250, 246, 0);
   font-size: 3.5rem;
   padding-bottom: 0.7rem;
 }
@@ -370,19 +382,26 @@ main .left-section {
   box-sizing: inherit;
 }
 
-.column {
+.hospital{
+  margin-left: 2rem;
+}
+
+.hospital .column {
   float: left;
   width: 30%;
   margin-bottom: 10px;
   padding: 0 8px;
 }
 
-.card {
+.hospital .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 20px;
 }
 
-.container {
+.hospital .container {
+  background-image: url("razer.gif");
+  background-repeat: no-repeat;
+  background-size: 91% 100%;
   padding: 0 16px;
 }
 
@@ -399,8 +418,10 @@ main .left-section {
 .hospital .card h2 {
   margin-top: 10px;
   font-weight: bolder;
+  font-size: 32px;
+  color: rgb(250, 246, 0);
   text-align: center;
-  padding: 2px;
+  padding: 1px;
 }
 @media screen and (max-width: 650px) {
   .column {
@@ -411,6 +432,12 @@ main .left-section {
     padding: 2px;
     color: aliceblue;
   }
+}
+.gradient-custom{
+  background-image: url("razer99.jpg");
+  background-size: 100% 28%;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  margin-top: -15%;
 }
 @media screen and (max-width: 1000px) {
   .left-section h2 {
@@ -448,7 +475,9 @@ main .left-section {
   .left-section {
     margin: 2px;
     padding: auto;
-    background-color: rgb(165 243 252);
+    background-image: url("razer7.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   .left-section .btn {
     font-size: small;
